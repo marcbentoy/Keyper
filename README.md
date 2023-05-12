@@ -1,3 +1,6 @@
 # INSTALLATION
-1. `git clone git@github.com:marc-bentoy/Keyper.git`
-2. 
+1. fork the repository
+2. git clone your forked repo
+3. cd to the cloned repo
+4. 
+<!-- TODO -->
