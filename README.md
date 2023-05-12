@@ -1,7 +1,4 @@
 ![Keyper logo](./logo-full-dark.svg)
-
-# Keyper
-
 Easily manage and track your keys
 
 ---
