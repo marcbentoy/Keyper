@@ -1,4 +1,4 @@
-![Keyper logo](./logo-full-dark.svg)
+<img src="./logo-full-dark.svg" alt="keyper logo" width="250"/>
 Easily manage and track your keys
 
 ---
