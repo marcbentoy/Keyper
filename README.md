@@ -15,6 +15,42 @@ Keyper has 3 main parts:
 # Program Requirements
 - [git @any version](https://git-scm.com/downloads) 
 - [python at least v3.11.0](https://www.python.org/downloads/)
+- Add SSH Key of your machine to your github account. Below are the steps:
+1. Generate SSH Key Pair
+
+   In the Git Bash terminal, enter the following command to generate a new SSH key pair:
+
+   ```bash
+   ssh-keygen -o -t rsa -C "your_email@example.com"
+   ```
+
+   Replace "your_email@example.com" with your email address associated with GitHub.
+   Press Enter to accept the default file location and name (generally, it will be saved in ~/.ssh/id_rsa).
+   When prompted, enter a secure passphrase (optional but recommended) and press Enter. Remember this passphrase, as you will need it later.
+
+2. Copy Public Key
+
+   To display the contents of your public key, run the following command in the Git Bash terminal:
+
+   ```bash
+   cat ~/.ssh/id_rsa.pub
+   ```
+
+   The output should be the public key. Select the entire key and copy it to the clipboard.
+
+3. Add Public Key to GitHub
+
+   Open your web browser and go to GitHub (https://github.com/).
+   Log in to your GitHub account.
+   Click on your profile picture in the top-right corner and select "Settings" from the dropdown menu.
+   In the left sidebar, click on "SSH and GPG keys".
+   Click on the "New SSH key" button.
+   Provide a title for the SSH key (e.g., "My Windows SSH Key").
+   Paste the copied public key into the "Key" field.
+   Click the "Add SSH key" button.
+   If prompted, enter your GitHub account password to confirm.
+
+That's it! You've successfully generated an SSH key on Windows and added the public key to GitHub. You can now proceed on how to contribute or the installation.
 
 # How to Contribute?
 
