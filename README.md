@@ -40,15 +40,15 @@ Keyper has 3 main parts:
 
 3. Add Public Key to GitHub
 
-   Open your web browser and go to GitHub (https://github.com/).
-   Log in to your GitHub account.
-   Click on your profile picture in the top-right corner and select "Settings" from the dropdown menu.
-   In the left sidebar, click on "SSH and GPG keys".
-   Click on the "New SSH key" button.
-   Provide a title for the SSH key (e.g., "My Windows SSH Key").
-   Paste the copied public key into the "Key" field.
-   Click the "Add SSH key" button.
-   If prompted, enter your GitHub account password to confirm.
+   1. Open your web browser and go to GitHub (https://github.com/).
+   2. Log in to your GitHub account.
+   3. Click on your profile picture in the top-right corner and select "Settings" from the dropdown menu.
+   4. In the left sidebar, click on "SSH and GPG keys".
+   5. Click on the "New SSH key" button.
+   6. Provide a title for the SSH key (e.g., "My Windows SSH Key").
+   7. Paste the copied public key into the "Key" field.
+   8. Click the "Add SSH key" button.
+   9. If prompted, enter your GitHub account password to confirm.
 
 That's it! You've successfully generated an SSH key on Windows and added the public key to GitHub. You can now proceed on how to contribute or the installation.
 
