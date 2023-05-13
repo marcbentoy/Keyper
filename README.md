@@ -5,10 +5,16 @@ Easily manage and track your keys
 
 Keyper helps you in managing and tracking multiple keys especially in University where there are many rooms and keys to handle and keep track on the borrowed and returned keys.
 
+# How does Keyper works?
+
+Keyper has 3 main parts:
+1. **API**,
+2. **Web Client**, and
+3. **Keyper Device**
+
 # Program Requirements
 - [git @any version](https://git-scm.com/downloads) 
 - [python at least v3.11.0](https://www.python.org/downloads/)
-Once these programs are successfully installed, you can proceed 
 
 # How to Contribute?
 
