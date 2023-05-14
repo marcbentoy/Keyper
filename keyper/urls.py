@@ -12,3 +12,5 @@ urlpatterns = [
     path('history/', history, name='history'),
     path('about/', about, name='about'),
 ]
+
+handler404 = 'frontend.views.handler404'

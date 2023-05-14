@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render 
 from django.http import HttpResponse
 
 # Create your views here.
@@ -18,3 +18,6 @@ def history(request):
 
 def about(request):
     return render(request, 'frontend/about.html')
+
+def handler404(request, exception):
+    return render(request, 'frontend/404.html')
