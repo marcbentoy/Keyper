@@ -85,5 +85,5 @@ That's it! You've successfully generated an SSH key on Windows and added the pub
       > You must name your virtual environment folder as `.venv` to include it in the `.gitignore` files or name it any name you like and include it in `.gitignore`
     2. activate your venv script by `.venv\Script\activate.bat` or `.venv\Script\Activate.ps1` if your using powershell
 4. Once you've created and activated your python virtual environment, install the necessary python libraries:<br>
-    `pip install django djangorestframework`
+    `pip install -r requirements.txt`
 5. You can now run `python manage.py runserver` and view the website through this link [127.0.0.1:8000/](http://127.0.0.1:8000/)
