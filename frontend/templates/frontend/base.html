@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% block title %}{% endblock %} | Keyper</title>
-  <link rel="icon" type="image/x-icon" href="{% static " frontend/media/logo-icon.ico" %}">
-  <script src="{% static "frontend/assets/tailwind.js" %}"> </script>
+  <link rel="icon" type="image/x-icon" href="{% static "frontend/media/logo-icon.ico" %}">
+  {% load static %}<script src="{% static "frontend/assets/tailwind.js" %}" type="application/javascript"> </script>
 </head>
 
 <body>
@@ -28,7 +28,7 @@
           -->
             <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
               aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
             </svg>
             <!--
             Icon when menu is open.
@@ -37,7 +37,7 @@
           -->
             <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
               aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
             </svg>
           </button>
         </div>
@@ -54,7 +54,7 @@
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <a href="/keys" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
+              <a href="/keys" class="hover:bg-gray-700 text-gray-300 rounded-md px-3 py-2 text-sm font-medium"
                 aria-current="page">Keys</a>
               <a href="/borrow"
                 class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Borrow</a>
@@ -90,7 +90,7 @@
   <footer class="text-gray-600 body-font">
     <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-          <img src="{% static "frontend/media/logo-full-dark.svg"%}"/>
+          <img alt="keyper logo dark full" src="{% static "frontend/media/logo-full-dark.svg"%}"/>
       </a>
       <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© Keyper 2023  
       </p>
